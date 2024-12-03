@@ -67,3 +67,54 @@ The cube uses three values:
 - `2`: Short walls  
 
 **Example Cube:**
+
+
+---
+
+### **Tasks**
+
+#### **1. Reading the Cube**
+- **Objective**: Write a function to read the cube from a text file and return a 2D array.  
+- **Input**: Filename (string)  
+- **Output**: 2D array representing the cube.  
+
+#### **2. Implementing A\***
+- **Objective**: Write a function to implement the A\* search algorithm.  
+- **Input**: Cube (2D array)  
+- **Output**: Path from the start to the goal state with the **least number of short walls crossed**, or `-1` if no path exists.  
+
+---
+
+### **Output Requirements**
+- **A\*** should prioritize paths with the fewest short walls.  
+- **Example**: In the sample cube, the **yellow path** is optimal with **2 short walls** compared to other paths with **3 short walls**.
+
+---
+
+## **General Requirements**
+1. Use appropriate **data structures** to represent the cube, store paths, and manage search queues.
+2. Implement efficient algorithms to handle large cube dimensions.
+3. Test your algorithms on multiple input files with varying cube configurations.
+
+---
+
+## **Output Format**
+- For all tasks, the output should be:  
+  - A **list of coordinates** representing the path, or  
+  - `-1` if no path exists.
+
+---
+
+## **Files to Submit**
+1. **Python File**: `YourRollNo.py`  
+2. **Jupyter Notebook**: `YourRollNo.ipynb`
+
+---
+
+## **Evaluation Criteria**
+1. Correctness of the implemented algorithms (DFS, BFS, A\*).  
+2. Code structure, readability, and comments.  
+3. Handling of edge cases and multiple goal states.  
+
+--- 
+
